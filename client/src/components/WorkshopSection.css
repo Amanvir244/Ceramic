@@ -1,0 +1,82 @@
+.workshop-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  margin: 40px auto;
+  max-width: 1100px;
+  padding: 40px;
+  border-radius: 12px;
+  gap: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  flex-wrap: wrap;
+}
+
+.workshop-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.workshop-image img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.workshop-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.workshop-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #2b2b2b;
+}
+
+.workshop-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  color: #444;
+}
+
+.workshop-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.subscribe {
+  font-size:15px;
+  background-color: #8b3f3f;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscribe:hover {
+  background-color: #742e2e;
+}
+
+.show-more {
+    font-size:12px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #8b3f3f;
+  padding: 12px 0;
+  color: #8b3f3f;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.show-more:hover {
+  color: #5c2a2a;
+  border-color: #5c2a2a;
+}

@@ -1,0 +1,47 @@
+.workshop-section {
+  display: flex;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: #f9f9f9;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+
+.workshop-image img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.workshop-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.workshop-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.workshop-text p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.subscribe-button {
+  padding: 12px 24px;
+  background-color: #8b3f3f;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #6e2f2f;
+}

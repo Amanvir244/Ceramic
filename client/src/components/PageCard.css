@@ -1,0 +1,51 @@
+.page-card {
+  width: 100%;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+
+}
+.page-card img {
+  width: 250px;       
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  
+}
+.page-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.page-info {
+  padding: 16px 0;
+   text-align: left;
+}
+
+.page-info h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  
+}
+
+.page-date {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.page-desc {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.page-link {
+  color: #b4444c;
+  text-decoration: none;
+  font-weight: 500;
+}

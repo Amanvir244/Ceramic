@@ -1,0 +1,12 @@
+.contact-header {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.contact-header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
